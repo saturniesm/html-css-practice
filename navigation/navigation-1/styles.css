@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@100;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  color: #f2f2f2;
+  --background-color: #f2f2f2;
+  --blue: #1e0e62;
+  --hover: #7b65de;
+  --pink: #ff0d6a;
+  --text: #a1a1b0;
+  overflow: hidden;
+}
+button {
+  all: unset;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 1.5em 5em;
+}
+
+.logo {
+  font-size: x-large;
+  color: var(--blue);
+  font-weight: 700;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  color: var(--blue);
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.menu li {
+  cursor: pointer;
+  color: inherit;
+  margin: 0px 1.5em;
+}
+
+.menu a {
+  color: inherit;
+}
+
+.menu a:hover,
+.menu a:active {
+  color: var(--hover);
+}
+
+.sign-in {
+  font-size: 1em;
+}
+
+.cta {
+  padding: 1em;
+  color: var(--blue);
+}
+
+.cta-active {
+  background-color: var(--blue);
+  padding: 4rem 2rem;
+  /* padding: 0.5em 1.5em;
+  border-radius: 2em; */
+  color: var(--background-color);
+}
+
+.cta:hover {
+  color: var(--hover);
+}
+
+.cta-active:hover {
+  background-color: var(--hover);
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  /* background-color: #7b65de; */
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 5em;
+  margin-bottom: 1rem;
+  color: var(--blue);
+}
+
+.hero p {
+  font-weight: 400;
+  color: var(--text);
+  width: 25.5em;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 4em;
+}
+
+.hero button {
+  background-color: var(--blue);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 1em 1.6em;
+  border-radius: 3em;
+  margin-bottom: 1em;
+}
+
+.hero a {
+  color: var(--blue);
+}
